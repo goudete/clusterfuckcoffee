@@ -1,8 +1,62 @@
 body {
   min-height:75rem;
   padding-top:4.5rem;
+  background-image: url("Resources/concreto.jpg");
+  background-size: 1500px;
+}
+
+.navdirections {
+    height: 60px !important;
+    background-color: rgb(128, 128, 128, 0.5);
+}
+
+.nav-link {
+    color: black !important;
+    letter-spacing: 2px;
+    font-size: 14px !important;
+}
+
+.nav-link:hover {
+    color: rgb(242, 245, 249)  !important;
 }
 
 .white {
   color: white !important;
 }
+
+.main-div {
+    height: 50%;
+}
+
+.viewcities, .cluster, .specialty {
+    color: white;
+}
+
+.cluster {
+    font-size: 105px;
+    text-shadow: 1px 1px 10px black;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 140px;
+}
+.specialty {
+    font-size: 30px;
+    text-shadow: 1px 1px 5px black;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-style: italic; 
+}
+
+.green-button {
+    margin-top: 80px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(125, 203, 122)
+}
+
+#logo {
+    margin-left: 40px;
+    width: 40px;
+}
+
